@@ -1,0 +1,16 @@
+{{#if admin}}
+Hey Admin
+{{else}}
+Hey Normal
+{{/if}}, I'm a good {{ username }}
+
+<ul>
+  {{#each cities}}
+  <li>{{this.name}}</li>
+  {{/each}}
+</ul>
+
+<img src="dog.jpg" alt="" srcset="">
+<a href="/">Home</a>
+<a href="/about">About</a>
+<a href="/works">Works</a>
